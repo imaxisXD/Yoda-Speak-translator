@@ -1,9 +1,95 @@
-footer {
-    position: fixed;
+
+footer {  
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #39354d;
+    border-top-right-radius: 1rem;    
     left: 0;
     bottom: 0;
-    width: 100%;
-    /* background-color: red; */
-    /* color: white; */
-    text-align: right;
+    width: 95%;   
+    text-decoration: none;
+    color: white;
   }
+
+  body { 
+    background-image: url('./images/yoda.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  #txt-holder{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+    width: 28rem;
+    text-align: center;
+    resize: none;
+    overflow: auto;
+    border: #FF5964;
+    margin-top: 0rem;
+    border-style: solid;
+    margin-bottom: 2rem;
+    transition-duration: 0.4s;
+  }
+  #txt-holder:hover {
+    height: 13rem;    
+    color: #FF5964;
+    font-size: larger;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #9fff04;
+    padding: 0.5rem , 0.5rem;    
+    transition-duration: 0.4s;
+  }
+  .heading:hover {    
+    color: #ffffff;
+  }
+  #btn-input {
+    
+    font-size: larger;
+    display: block;
+    padding: 12px 28px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border: 2px solid #FF5964;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+#btn-input:hover {
+    size: 5rem;
+    background-color: #FFE74C;
+    color: black;
+    padding-top: 10rem;
+    padding: 27px 45px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#output {  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10rem;
+  width: 28rem;
+  text-align: center;
+  resize: none;
+  overflow: auto;
+  border: #FF5964;
+  margin-top: 0rem;
+  border-style: solid;
+  margin-bottom: auto;
+  background-color: white;
+  transition-duration: 0.4s;
+  color: #35A7FF;
+}
+
+#output:hover {
+  background-color: #FF5964;
+  color: black;
+}
